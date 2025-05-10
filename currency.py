@@ -82,16 +82,6 @@ with st.sidebar:
         st.experimental_rerun()
     st.markdown("</div>", unsafe_allow_html=True)
 
-    st.markdown('<div class="sidebar-section">', unsafe_allow_html=True)
-    st.subheader("Design Principles")
-    st.markdown("""
-    - **Chunking**: Controls grouped into 3–5 items  
-    - **Visual Hierarchy**: Chart → KPIs → guidance  
-    - **Preattentive Color**: Green/amber banners for decisions  
-    - **Data-Ink Ratio**: Minimal gridlines & chrome  
-    - **Progressive Disclosure**: Advanced info under expanders  
-    """)
-    st.markdown("</div>", unsafe_allow_html=True)
 
 # ──────────────────────────────────────────────────────────────────────────────
 # 4. LOAD / REFRESH DATA
